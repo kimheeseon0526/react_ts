@@ -1,8 +1,9 @@
+'use client'
 import React from 'react';
 import {Provider} from "react-redux";
 import {store} from "./store";
 
-const Provider = ({children}: {children:React.ReactNode}) => {
+const Providers = ({children}: {children:React.ReactNode}) => {
   return (
     <Provider store={store}>
       {children}
@@ -10,4 +11,6 @@ const Provider = ({children}: {children:React.ReactNode}) => {
   );
 };
 
-export default Provider;
+export default Providers;
+
+//최초 한 번만 설정하면 됨

@@ -1,8 +1,52 @@
 {
- "employees" : [
-  {"id":1, "name": "John", "age": 35, "job": "frontend", "language": "react", "pay": 1},
-  {"id":2, "name": "Peter", "age": 35, "job": "frontend", "language": "react", "pay": 1},
-  {"id":3, "name": "Sue", "age": 35, "job": "frontend", "language": "react", "pay": 1},
-  {"id":4, "name": "Susan", "age": 35, "job": "frontend", "language": "react", "pay": 1}
-]
+  "employees": [
+    {
+      "id": 1,
+      "name": "John",
+      "age": 35,
+      "job": "frontend",
+      "language": "react",
+      "pay": 1
+    },
+    {
+      "id": 2,
+      "name": "Peter",
+      "age": 35,
+      "job": "frontend",
+      "language": "react",
+      "pay": 1
+    },
+    {
+      "id": 3,
+      "name": "Sue",
+      "age": 35,
+      "job": "frontend",
+      "language": "react",
+      "pay": 1
+    },
+    {
+      "id": 4,
+      "name": "Susan",
+      "age": "555",
+      "job": "frontend",
+      "language": "react",
+      "pay": 1
+    },
+    {
+      "id": 5,
+      "name": "기미선",
+      "age": "12",
+      "job": "12",
+      "language": "12",
+      "pay": "12"
+    },
+    {
+      "id": 6,
+      "name": "송성준",
+      "age": "33",
+      "job": "33",
+      "language": "33",
+      "pay": "33"
+    }
+  ]
 }
